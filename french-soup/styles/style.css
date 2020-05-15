@@ -5,5 +5,73 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  background-image: url(../images/soup.jpg);
+  width: 100%;
+  height: 500px;
+  background-size:cover;
+  background-position: center;
+}
+
+.texts {
+  padding: 50px 150px 80px 150px;
+}
+
+img {
+  display: flex;
+  padding-bottom: 10px;
+  width: 450px;
+  margin: 0 auto;
+}
+/*first-para goes here*/
+h1 {
+  font-family: 'Dancing Script';
+  font-size: 65px;
+}
+.first-paragraph {
+  display: flex;
+  font-size: 27px;
+  margin: 10px 0px 25px 0px;
+}
+
+
+/*second para goes from here*/
+
+.ingredients {
+  padding-top: 15px;
+  font-size: 27px;
+}
+
+.second-paragraph > h2 {
+  font-weight: bold;
+}
+
+.second-paragraph ul li {
+  font-size: 25px;
+  list-style-type:none;
+  margin: 3px 0px;
+  font-weight: 300px;
+}
+
+/*third para goes from here*/
+.third-paragraph {
+  font-size: 18px;
+}
+.directions {
+  padding-top: 15px;
+  font-size: 27px;
+}
+
+.third-paragraph p {
+  margin: 0px;
+  padding: 3px 0px;
+  font-size: 25px;
 }
